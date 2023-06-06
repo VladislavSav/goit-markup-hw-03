@@ -108,6 +108,7 @@ img {
   display: flex;
   gap: 40px;
   margin-right: 332px;
+  padding: 24px 0;
 }
 
 .header-menu-link {
