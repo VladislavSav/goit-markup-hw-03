@@ -1,0 +1,232 @@
+:root {
+  --backgr-color: #2e2f42;
+  --main-text-color: #434455;
+  --secont-text-color: #ffffff;
+  --header-link-color: #404bbf;
+  --logo-color: #4d5ae5;
+  --btn-background-color: #f4f4fd;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+.section-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--backgr-color);
+}
+
+.section-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--backgr-color);
+}
+
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+p, ul, h1,h2,h3,h4,h5,h6 {
+  margin-bottom: 0;
+  border-top: 0;
+}
+
+img {
+  display: block;
+}
+
+.conteiner {
+display: flex;
+}
+
+.header-conteiner{
+  display: flex;
+  padding: 0 15px;
+  width: 1158px;
+  margin: 0 auto;
+}
+
+.header {
+  border-bottom: 1px solid #E7E9FC;
+  }
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo-color);
+  margin-right: 76px;
+}
+
+.header-logo-span {
+  color: var(--backgr-color);
+}
+
+.header-menu {
+  display: flex;
+  gap: 40px;
+  padding: 24px 0;
+  margin-right: 332px;
+}
+
+.header-menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--backgr-color);
+}
+
+.header-menu-item {
+  padding: 24px 0;
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: var(--header-link-color);
+}
+
+.header-address-link:hover,
+.header-address-link:focus {
+  color: var(--header-link-color);
+}
+
+.header-address {
+  font-style: normal;
+}
+
+.header-address-list{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-right: 0;
+}
+
+.header-address-link {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.hero {
+}
+
+.hero-conteiner {
+  background-color: var(--backgr-color);
+  padding: 188px 472px 292px 472px;
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--secont-text-color);
+  background-color: var(--title-color);
+  max-width: 496px;
+  margin-bottom: 48px;
+}
+
+.hero-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--secont-text-color);
+  cursor: pointer;
+  background-color: var(--logo-color);
+  background: #4D5AE5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  min-width: 169px;
+  height: 56px;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--header-link-color);
+}
+
+.team-section {
+  background-color: var(--btn-background-color);
+}
+.team-item {
+  background-color: var(--secont-text-color);
+}
+
+.footer {
+  background-color: var(--backgr-color);
+}
+
+.footer-logo-span {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--btn-background-color);
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--btn-background-color);
+}
+
+.propositions-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: var(--logo-color);
+  background-color: var(--btn-background-color);
+}
+
+.propositions-btn:hover,
+.propositions-btn:focus {
+  color: var(--secont-text-color);
+  background-color: var(--header-link-color);
+}
+
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--backgr-color);
+}
