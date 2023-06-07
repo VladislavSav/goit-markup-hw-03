@@ -275,6 +275,7 @@ img {
 
 .team-list-name {
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-list-pos {
@@ -314,6 +315,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--btn-background-color);
+  display: inline-block;
 }
 
 .footer-text {
@@ -351,6 +353,7 @@ img {
   background-color: var(--btn-background-color);
   padding: 12px 24px;
   border: 1px solid #E7E9FC;
+  border-radius: 4px;
 }
 
 .first-btn {
