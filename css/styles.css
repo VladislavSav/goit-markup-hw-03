@@ -303,9 +303,12 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-color);
-  display: inline-block;
-  margin-bottom: 16px;
   }
+
+.flogo {
+  margin-bottom: 16px;
+  display: inline-block;
+}
 
 .footer-logo-span {
   font-family: "Raleway", sans-serif;
@@ -315,8 +318,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--btn-background-color);
-  display: inline-block;
-}
+  }
 
 .footer-text {
   font-size: 16px;
@@ -354,11 +356,6 @@ img {
   padding: 12px 24px;
   border: 1px solid #E7E9FC;
   border-radius: 4px;
-}
-
-.first-btn {
-  background-color: var(--header-link-color);
-  color: var(--secont-text-color);
 }
 
 .propositions-btn:hover,
