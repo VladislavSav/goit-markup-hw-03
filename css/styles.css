@@ -292,7 +292,7 @@ img {
 
 .footer-container {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   }
 
 .footer-logo {
@@ -306,9 +306,9 @@ img {
   }
 
 .flogo {
-  margin-bottom: 16px;
   display: inline-block;
-}
+  margin-bottom: 16px;
+  }
 
 .footer-logo-span {
   font-family: "Raleway", sans-serif;
